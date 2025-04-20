@@ -6,9 +6,4 @@ Custom Lovelace card for Home Assistant to display electricity tariff block info
 
 1. Add this repository as a custom repository in HACS (Frontend).
 2. Install "Tarifni Semafor Card".
-3. Add to Lovelace:
-
-```yaml
-type: 'custom:tarifni-semafor-card'
-entity: sensor.tarifni_semafor
-```
+3. Edit your Dashboard and add "Tarifni Semafor Card".
