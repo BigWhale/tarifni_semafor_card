@@ -1,0 +1,9 @@
+{
+  "name": "Tarifni Semafor Card",
+  "content_in_root": false,
+  "filename": "dist/tarifni-semafor-card.js",
+  "type": "lovelace",
+  "render_readme": true,
+  "description": "Displays the current tariff block and progress in Home Assistant.",
+   "homeassistant": "2025.3.3"
+}
