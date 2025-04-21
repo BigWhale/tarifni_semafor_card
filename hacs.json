@@ -1,5 +1,5 @@
 {
   "name": "Tarifni Semafor Card",
   "render_readme": true,
-  "description": "Displays the current tariff block and progress in Home Assistant.",
+  "description": "Displays the current tariff block and progress in Home Assistant."
 }
