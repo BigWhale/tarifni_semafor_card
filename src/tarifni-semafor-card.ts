@@ -169,12 +169,7 @@ export class TarifniSemaforCard extends LitElement {
     const mins = Math.round(minutes % 60);
     return `${hrs}h ${mins}m`;
   }
-
-  private _formatTime(isoString: string): string {
-    const date = new Date(isoString);
-    return date.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
-  }
-
+  
   static styles = css`
     ha-card {
       padding: 16px;
