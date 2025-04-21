@@ -1,6 +1,6 @@
 {
   "name": "Tarifni Semafor Card",
   "render_readme": true,
-  "filename": "dist/tarifni-semafor-card.js",
+  "filename": "tarifni-semafor-card.js",
   "description": "Displays the current tariff block and progress in Home Assistant.",
 }

@@ -745,10 +745,6 @@ var TarifniSemaforCard = class extends r4 {
     const mins = Math.round(minutes % 60);
     return `${hrs}h ${mins}m`;
   }
-  _formatTime(isoString) {
-    const date = new Date(isoString);
-    return date.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" });
-  }
 };
 TarifniSemaforCard.styles = i`
     ha-card {
