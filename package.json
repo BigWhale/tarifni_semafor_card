@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Home Assistant custom card for displaying electricity tariff block and progress.",
   "scripts": {
-    "build": "esbuild src/index.ts --bundle --outfile=tarifni-semafor-card.js --format=esm --target=es2022"
+    "build": "esbuild src/index.ts --bundle --outfile=dist/tarifni_semafor_card.js --format=esm --target=es2022"
   },
   "devDependencies": {
     "esbuild": "^0.25.1",
